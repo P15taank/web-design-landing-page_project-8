@@ -1,0 +1,73 @@
+@media screen and (max-width: 500px) {
+  body {
+    scroll-behavior: smooth;
+  }
+
+  /* navigation bar */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .nav-items {
+    display: none;
+  }
+  /* logo */
+
+  nav img {
+    margin-top: 1.25rem;
+    height: 1.875rem;
+  }
+
+  /* nav button */
+  .signin-btn {
+    margin-top: 1.25rem;
+  }
+  .main-div {
+    background-image: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 85%;
+    background-position: top right;
+  }
+  /* intro section */
+  .intro-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* targetting the main img */
+  .imgs-div {
+    width: 100%;
+  }
+  .imgs-div :first-child {
+    display: none;
+  }
+
+  .imgs-div :last-child {
+    width: 100%;
+    position: relative;
+    left: 0px;
+    top: 3.125rem;
+  }
+  .imgs-div :nth-child(2) {
+    display: none;
+  }
+
+  /* left section */
+  .left-section {
+    position: relative;
+    top: 3.125rem;
+    left: 4.375rem;
+    width: 80%;
+  }
+
+  h1 {
+    height: 3.75rem;
+  }
+  h4 {
+    height: 5rem;
+  }
+
+  .learn-more-btn {
+    margin-bottom: 0.625rem;
+  }
+}
