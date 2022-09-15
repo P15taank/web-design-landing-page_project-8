@@ -16,4 +16,4 @@
 ## Time Spent
 I spent 4 hours to complete this project
 ## Live Link
-Preview the project [Here]()
+Preview the project [Here](https://web-design-landing-page-a8.netlify.app/)
